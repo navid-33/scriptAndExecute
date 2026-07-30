@@ -12,5 +12,5 @@ test('Login to SauceDemo application with valid credentials', async ({ page }) =
 
    await loginpage.login(USER_NAME_INPUT, PASSWORD_INPUT);
 
-   await expect(page).toHaveURL(INVENTORY_URL)
+   await expect(page).toHaveURL(INVENTORY_URL);
 });
