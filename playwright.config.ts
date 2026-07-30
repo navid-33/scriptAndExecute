@@ -9,9 +9,9 @@ export default defineConfig({
    reporter: 'html',
    use: {
       trace: 'on-first-retry',
-      headless: false, // false will show browser
+      headless: true, // false will show browser
       launchOptions: {
-         slowMo: 700, // Slow down actions by 500ms (adjust as needed)
+         slowMo: 1, // Slow down actions by 500ms (adjust as needed)
       },
    },
    projects: [
